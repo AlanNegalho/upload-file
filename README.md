@@ -176,7 +176,7 @@ DRF:
 * GET: receber o sexo (m ou f) como parâmetro, filtrar e retornar a lista
 de pessoas, ordenada por idade.
 
-Pode-se observar que ao acessarmos a página pela primeira vez nota-se que não estamos logados e possivelmente não teremos acesso ao formulário para o upload do arquivo XLSX. Para resolvermos isso no link da aplicação http://127.0.0.1:8000/ adiciaonaremos um novo endedreço de pagina chamado admin então o novo link fica http://127.0.0.1:8000/admin  faça o ligin com os dados superuser criados anteriormente, retorne a página principal de aplicação http://127.0.0.1:8000/
+Pode-se observar que ao acessarmos a página pela primeira vez nota-se que não estamos logados e possivelmente não teremos acesso ao formulário para o upload do arquivo XLSX. Para resolvermos isso no link da aplicação http://127.0.0.1:8000/ adiciaonaremos um novo endedreço de pagina chamado admin então o novo link fica http://127.0.0.1:8000/admin  faça o login com os dados superuser criados anteriormente, retorne a página principal da aplicação http://127.0.0.1:8000/
 ![screen02_cropped](https://user-images.githubusercontent.com/107214420/210414243-85613bfc-5788-4153-be3b-965433c30525.jpg)
 
 Podemos observa no canto superior direito que estamos logados no sistema, assim podemos acessar o endpoint "meeren": "http://127.0.0.1:8000/meeren/", 

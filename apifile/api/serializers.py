@@ -18,7 +18,6 @@ class PessoaSerializer(ModelSerializer):
     
         return representation
 
-
 class PessoaSexoSerializer(ModelSerializer):
     data_nasc = serializers.DateTimeField(source="nascimento")
     class Meta:

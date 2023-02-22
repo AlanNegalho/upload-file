@@ -25,9 +25,17 @@ class PessoaViewSet(ModelViewSet):
         nova_perssoa = request.FILES.get('arquivo')
         import_dados = dataset.load(nova_perssoa.read(), format='xlsx')
         for dados in import_dados:
-            valores = Pessoa(id_code=dados[1], nome=dados[2], sobrenome=dados[3], sexo=dados[4], altura=dados[5],
-                    peso=dados[6], nascimento=datetime.utcfromtimestamp(dados[7]).strftime('%Y-%m-%d'),
-                    bairro=dados[8], cidade=dados[9], estado=dados[10], numero=dados[11], )
+            valores = Pessoa(id_code=dados[1], 
+                             nome=dados[2], 
+                             sobrenome=dados[3], 
+                             sexo=dados[4], 
+                             altura=dados[5],
+                             peso=dados[6], 
+                             nascimento=datetime.utcfromtimestamp(dados[7]).strftime('%Y-%m-%d'),
+                             bairro=dados[8], 
+                             cidade=dados[9], 
+                             estado=dados[10], 
+                             numero=dados[11], )
             valores.save()
         response='Carregado com sucesso!'
         return Response(response)
