@@ -187,8 +187,7 @@ Logo após o acesso faça o upload do arquivo data.xlsx através do formulário 
 
 Depois do arquivo data.xlsx ser carregado o resultado será assim:
 ![Person List – Django REST framework - Google Chrome 26_12_2022 20_48_07 (3)](https://user-images.githubusercontent.com/107214420/209589602-9a7e209d-ad60-4f3c-b174-b1e7077400f2.png)
-## Deploy da aplicação
-A api esta disponível na web, acesse através do [Link](https://alannegalho.pythonanywhere.com/)
+
 
 ⌨️ com ❤️ por [Alan Negalho](https://github.com/AlanNegalho) 😊
 
